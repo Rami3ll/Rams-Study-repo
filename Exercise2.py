@@ -1,5 +1,3 @@
-# My apologies and be aware this was scripted on linux via vim lol
-
 #!/usr/bin/python3
 
 
