@@ -30,15 +30,18 @@ print()
 # A program that prompts for a score btw 0.0 & 1.0 and if out of range prints an error message and else if in range prints a grade
 print("Hey welcome to the grade calculator! fill the following to calculate your grades:")
 score = float(input("Enter your score between 0.0 - 1.0: "))
-if score >= 0.9:
-    print("A")
-    print("Awesome!")
-elif score >= 0.8:
-    print("B")
-elif score >= 0.7:
-    print("C")
-elif score >= 0.6:
-    print("D")
-elif score < 0.6:
+try:
+    if score >= 0.9:
+        print("A")
+        print("Awesome!")
+    elif score >= 0.8:
+        print("B")
+    elif score >= 0.7:
+        print("C")
+    elif score >= 0.6:
+        print("D")
+    elif score < 0.6:
         print("F")
         print("Olodo *sigh")
+except:
+    print("Invalid input :) sorry I only take numerics.")
