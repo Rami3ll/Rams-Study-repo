@@ -19,6 +19,7 @@ except:
 print()
 print()
 
+# Another method of the grade computation program including the try and except within the function definition body.
 print("An Alternative method")
 hours = input("Enter your work hours: ")
 rate = input("Enter your work rate: ")
